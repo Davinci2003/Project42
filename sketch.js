@@ -40,6 +40,24 @@ stroke(0, 0, 255);
 strokeWeight(7);
 line(0,0,60,0);
 pop();
+  
+stroke(255,0,0);
+strokeWeight(7);
+noFill();
+arc(0,0,280,280,0,scAngle);
 
+stroke(0,255,0);
+strokeWeight(7);
+noFill();
+arc(0,0,260,265,0,mnAngle);
+
+stroke(0,0,255);
+strokeWeight(7);
+noFill();
+arc(0,0,250,250,0,hrAngle);
+
+point (0,0);
+
+  
   drawSprites();
 }
